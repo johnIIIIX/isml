@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isml"  # Name to use when installing, e.g., `pip install isml`
+version = "0.2"  # Library version
+description = "A machine learning library for efficient workflows"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
+
+[tool.setuptools.packages.find]
+where = ["imslib"]
