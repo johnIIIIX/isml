@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: isml
+Version: 0.2
+Summary: A machine learning library for efficient workflows
+Author-email: Your Name <your.email@example.com>
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
